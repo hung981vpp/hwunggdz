@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo img{
+    width: 5%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    margin-right: 20px;
+    margin-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+nav li:hover{
+    background-color: brown;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 5px;
+}
+main{
+    padding: 50px;
+}
+.section{
+    margin-bottom: 50px;
+}
+.section p{
+    text-align: center;
+}
+.section h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(33.3% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    border: 2px solid purple;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.product h3{
+    margin: 0;
+}
+.product p{
+    margin: 10px 0;
+}
+.product button{
+    background-color: #222;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+section form{
+    margin-left: 35%;  
+}
+section h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: chocolate;
+    margin-bottom: 20px;
+}
+section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+}
+#email{
+    margin-left: 74px;
+}
+#message{
+    margin-left: 52px;
+}
+section form button{
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    margin-left: 366px;
+}
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and(max-width: 768px) {
+    header{
+        padding: 10px;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+    nav li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .products{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: calc(100%/2 - 10px);
+        margin-bottom: 30px;
+    }
+    
+}
